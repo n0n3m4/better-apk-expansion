@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- When a download completes, a notification is displayed, and this
+        string is used to indicate that the download successfully completed.
+        Note that such a download could have been initiated by a variety of
+        applications, including (but not limited to) the browser, an email
+        application, a content marketplace. -->
+    <string name="notification_download_complete">ダウンロードが完了しました</string>
+
+    <!-- When a download completes, a notification is displayed, and this
+        string is used to indicate that the download failed.
+        Note that such a download could have been initiated by a variety of
+        applications, including (but not limited to) the browser, an email
+        application, a content marketplace. -->
+    <string name="notification_download_failed">ダウンロードに失敗しました</string>
+
+
+    <string name="state_unknown">ダウンロードを始めています…</string>
+    <string name="state_idle">ダウンロードの開始を待機しています</string>
+    <string name="state_fetching_url">ダウンロードするリソースを検索しています</string>
+    <string name="state_connecting">ダウンロードサーバーに接続しています</string>
+    <string name="state_downloading">リソースをダウンロードしています</string>
+    <string name="state_completed">ダウンロードが完了しました</string>
+    <string name="state_paused_network_unavailable">ネットワークが利用できないためダウンロードを中断しました</string>
+    <string name="state_paused_network_setup_failure">ダウンロードが中断しました。ブラウザでWebページを表示できるか確認してください。</string>
+    <string name="state_paused_by_request">ダウンロードを中断しました。</string>
+    <string name="state_paused_wifi_unavailable">Wi-Fiが利用できないためダウンロードを中断しました</string>
+    <string name="state_paused_wifi_disabled">Wi-Fiが無効になっているためダウンロードを中断しています</string>
+    <string name="state_paused_roaming">ローミング中のためダウンロード中断しています</string>
+    <string name="state_paused_sdcard_unavailable">外部ストレージが利用できないためダウンロード中断しています</string>
+    <string name="state_failed_unlicensed">このアプリの購入を確認できなかったためダウンロードできませんでした</string>
+    <string name="state_failed_fetching_url">リソースが見つからなかったためダウンロードできませんでした</string>
+    <string name="state_failed_sdcard_full">外部ストレージの空きがないためダウンロードできませんでした</string>
+    <string name="state_failed_cancelled">ダウンロードを中止しました</string>
+    <string name="state_failed">ダウンロードに失敗しました</string>
+
+    <string name="time_remaining">残り時間 %1$s</string>
+    <string name="time_remaining_notification">残り %1$s</string>
+</resources>
