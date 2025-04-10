@@ -20,7 +20,7 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.support.annotation.StringRes;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;;
 
 import com.android.vending.expansion.downloader.R;
 import com.google.android.vending.expansion.downloader.DownloadProgressInfo;
