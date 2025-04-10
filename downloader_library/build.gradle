@@ -37,5 +37,5 @@ artifacts {
 dependencies {
     api 'com.github.bolein:better-licensing:1.5.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'
-    implementation 'androidx.localbroadcastmanager:1.1.0'
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
 }
